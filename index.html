@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightBlog</title>
+</head>
+<body>
+    <header id="mainheader">
+        <!-- the content of header goes here  -->
+         <h1 id="logo">BrightBlog</h1>
+         <nav>
+            <ul id="navul">
+                <li><a href="" class="navbutton">Home</a></li>
+                <li><a href="" class="navbutton">About Us</a></li>
+                <li><a href="" class="navbutton">Contact</a></li>
+            </ul>
+         </nav>
+    </header>
+    <main>
+        <div id="maindiv">
+            <aside>
+                <section>
+                    <h4>Filter by Month </h4>
+                    <nav>
+                        <ul>
+                            <li><a href="">Filter for January</a></li>
+                            <li><a href="">Filter for February</a></li>
+                            <li><a href="">Filter for March</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <h4>Filter by Category </h4>
+                <nav>
+                    <ul>
+                        <li><a href="">Kittens</a></li>
+                        <li><a href="">Cats</a></li>
+                        <li><a href="">Tigers</a></li>
+                        <li><a href="">Lions</a></li>
+                    </ul>
+                </nav>
+                <section>
+                </section>
+            </aside>
+            <div>
+                <article>
+                    <header>
+                        <!-- Article's header goes here -->
+                        <h2>Ten Amusing Facts About Cats </h2>
+                        <h3>Read Time: 5 Minutes</h3>
+                    </header>
+                    <main>
+                        <p> lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatem. </p>
+                        <blockquote>
+                           "I love kittens! - <cite>Rupert, 2024</cite>
+                        </blockquote>
+                        <p> lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatem.  </p>
+                    </main>
+                    <footer>
+                        <h2>Author: Rupert Brown</h2>
+                        <img src="https://placebear.com/100/100" alt="Profile pic of a bear">
+                        <h3>Last posted: 01-08-2024  </h3>
+                        <a href="https://www.brightnetwork.co.uk/" target="_blank" >Author's Profile</a>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <!-- Article's header goes here -->
+                        <h2>Ten Amusing Facts About Cats </h2>
+                        <h3>Read Time: 5 Minutes</h3>
+                    </header>
+                    <main>
+                        <p> lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatem. </p>
+                        <blockquote>
+                           "I love kittens! - <cite>Rupert, 2024</cite>
+                        </blockquote>
+                        <p> lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatem.  </p>
+                    </main>
+                    <footer>
+                        <h2>Author: Rupert Brown</h2>
+                        <img src="https://placebear.com/100/100" alt="Profile pic of a bear">
+                        <h3>Last posted: 01-08-2024  </h3>
+                        <a href="https://www.brightnetwork.co.uk/" target="_blank" >Author's Profile</a>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <!-- Article's header goes here -->
+                        <h2>Ten Amusing Facts About Cats </h2>
+                        <h3>Read Time: 5 Minutes</h3>
+                    </header>
+                    <main>
+                        <p> lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatem. </p>
+                        <blockquote>
+                           "I love kittens! - <cite>Rupert, 2024</cite>
+                        </blockquote>
+                        <p> lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatem.  </p>
+                    </main>
+                    <footer>
+                        <h2>Author: Rupert Brown</h2>
+                        <img src="https://placebear.com/100/100" alt="Profile pic of a bear">
+                        <h3>Last posted: 01-08-2024  </h3>
+                        <a href="https://www.brightnetwork.co.uk/" target="_blank" >Author's Profile</a>
+                    </footer>
+                </article>
+            </div>
+        </div>
+
+        <!-- main content of website goes here -->
+
+        <hr />
+        <h2>Sign up for our newsletter!</h2>
+
+        <form action="" method="">
+            <label for="first_name">First Name*: </label>
+            <input type="text" id="first_name" name="first_name" placeholder="Enter your first name" required>
+            <br />
+           
+            <label for="last_name">Last Name*: </label>
+            <input type="text" id="last_name" name="last_name" placeholder="Enter your last name" required>
+            <br />
+           
+            <label for="email">Email*: </label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br />
+
+            <label for="password">Password*: </label>
+            <input type="password" id="password" name="password" placeholder="Choose a password" required>
+            <br />
+
+            <label for="favourite_animal">Favourite Animal: </label>
+            <input type="radio" name="favourite_animal" id="cat" value="cat">
+            <label for="cat">Cat</label>
+            <input type="radio" name="favourite_animal" id="tiger" value="tiger">
+            <label for="tiger">Tiger</label>
+            <input type="radio" name="favourite_animal" id="lion" value="lion">
+            <label for="lion">Lion</label>
+            <br />
+
+            <label for="country">Country: </label>
+            <select name="country" id="country">
+                <option value="england">England</option>
+                <option value="scotland">Scotland</option>
+                <option value="wales">Wales</option>
+                <option value="northern_ireland">Northern Ireland</option>
+            </select>
+
+            <label for="bio">Biography: </label>
+            <textarea name="bio" id="bio" cols="30" rows="5"> </textarea>
+            <br />
+
+            <input type="checkbox" id ="subscribe" name="subscribe" />
+            <label for="subscribe">Subscribe to our newsletter!</label>
+            <br />
+
+            <input type="submit" value="Sign Up">
+
+            <h4>Sections marked with a * are required  </h4>
+
+        </form>
+   
+       
+        <hr />
+       
+       
+    </main>
+    <footer>
+        <h2>BrightBlogSite</h2>
+        <section>
+            <nav>
+                <ul id="footerul">
+                    <div>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Careers</a></li>
+                    </div>
+                    <div>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Cookies Policy</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </section>
+    </footer>
+</body>
+</html>

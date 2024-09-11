@@ -1,0 +1,101 @@
+body {
+    font-family: Georgia, Times, 'Times New Roman', serif, arial, sans-serif;
+    margin: 0%;
+    font-size: 1.3vw;
+}
+
+ #logo {
+    margin: 0px;
+    padding: 8px;
+    text-indent: 3%;
+    font-size: 4vw;
+    font-family: "Fredoka One", sans-serif;
+    text-shadow: 
+    1px 1px 0px black, /*bottom right*/
+    -1px 1px 0px black, /*bottom left*/
+    1px -1px 0px black, /*top right*/
+    -1px -1px 0px black; /*top left*/
+}
+
+ul {
+    margin: 0%;
+    font-size: 1.5vw;
+}
+
+#navul {
+    display: flex;
+    
+}
+
+#navul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+#mainheader {
+    background-color: #e17701;
+    color: #ffd8b1;
+    font-size: 2vw;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: #ffd8b1;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px white solid;
+    border-radius: 10%;
+}
+
+body > main > article {
+    width: 70%;
+    margin: auto;
+}
+
+#maindiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+#maindiv > aside {
+    width: 20%;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align:center;
+}
+
+body > footer {
+    background-color: #e17701;
+    display: flex;
+}
+
+img {
+    border-radius: 100%;
+}
+
+#footerul {
+    display: flex;
+    list-style: none;
+}
+
+#footerul  >div > li {
+    margin-left: 12px;
+}
+
+#footerul  >div > li > a {
+    text-decoration: none;
+    color: white;
+}    
