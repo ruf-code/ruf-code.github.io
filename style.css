@@ -9,11 +9,12 @@ body {
     padding: 10px;
     font-size: 4vw;
     font-family: "Ubuntu", sans-serif;
+    color: #898fca;
     text-shadow: 
     1px 1px 0px #7379af, /*bottom right*/
-    -1px 1px 0px #7379af, /*bottom left*/
-    1px -1px 0px #7379af, /*top right*/
-    -1px -1px 0px #7379af; /*top left*/
+    1px 1px 0px #7379af, /*bottom left*/
+    1px 1px 0px #7379af, /*top right*/
+    1px 1px 0px #7379af; /*top left*/
 }
 
 ul {
@@ -23,7 +24,6 @@ ul {
 
 #navul {
     display: flex;
-    
 }
 
 #navul > li {
@@ -32,7 +32,6 @@ ul {
 }
 
 #mainheader {
-    color: #898fca;
     font-size: 2vw;
     height: 13vh;
     display: flex;
@@ -47,6 +46,7 @@ body > header > nav > ul {
 
 .navbutton {
     text-decoration: none;
+    color: #898fca;
     padding: 12px;
     border: 1px white solid;
     border-radius: 10%;
@@ -59,11 +59,6 @@ hr {
 body > main > article {
     width: 70%;
     margin: auto;
-}
-
-#maindiv {
-    display: flex;
-    justify-content: space-around;
 }
 
 #maindiv > aside {
@@ -99,3 +94,36 @@ img {
 #footerul  > div > li > a {
     text-decoration: none;
 }    
+
+#ar1 {
+    grid-area: ar1;
+}
+
+#ar2 {
+    grid-area: ar2;
+}
+
+#ar3 {
+    grid-area: ar3;
+}
+
+#ar4 {
+    grid-area: ar4;
+}
+
+#ar5 {
+    grid-area: ar5;
+}
+
+#ar6 {
+    grid-area: ar6;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: [first] 33.333% [line2] 33.333% [end];
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+        'ar1 ar2 ar3'
+        'ar4 ar5 ar6';
+   }
