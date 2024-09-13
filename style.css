@@ -6,15 +6,14 @@ body {
 
  #logo {
     margin: 0px;
-    padding: 8px;
-    text-indent: 3%;
+    padding: 10px;
     font-size: 4vw;
-    font-family: "Fredoka One", sans-serif;
+    font-family: "Ubuntu", sans-serif;
     text-shadow: 
-    1px 1px 0px black, /*bottom right*/
-    -1px 1px 0px black, /*bottom left*/
-    1px -1px 0px black, /*top right*/
-    -1px -1px 0px black; /*top left*/
+    1px 1px 0px #7379af, /*bottom right*/
+    -1px 1px 0px #7379af, /*bottom left*/
+    1px -1px 0px #7379af, /*top right*/
+    -1px -1px 0px #7379af; /*top left*/
 }
 
 ul {
@@ -33,10 +32,9 @@ ul {
 }
 
 #mainheader {
-    background-color: #e17701;
-    color: #ffd8b1;
+    color: #898fca;
     font-size: 2vw;
-    height: 9vh;
+    height: 13vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -48,11 +46,14 @@ body > header > nav > ul {
 }
 
 .navbutton {
-    color: #ffd8b1;
     text-decoration: none;
     padding: 12px;
     border: 1px white solid;
     border-radius: 10%;
+}
+
+hr {
+    color: #7379af;
 }
 
 body > main > article {
@@ -79,7 +80,6 @@ h2 {
 }
 
 body > footer {
-    background-color: #e17701;
     display: flex;
 }
 
@@ -98,5 +98,4 @@ img {
 
 #footerul  > div > li > a {
     text-decoration: none;
-    color: white;
 }    
