@@ -112,13 +112,6 @@ img {
 
 #ar2 {
     grid-area: ar2;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 2%;
-    grid-template-areas: 
-        'h2'
-        'f2';
 }
 
 #h2 {
@@ -181,8 +174,8 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    column-gap: 5%;
-    row-gap: 5%;
+    column-gap: 3%;
+    row-gap: 3%;
     grid-template-areas: 
         'ar1 ar2 ar3'
         'ar4 ar5 ar6';
@@ -223,7 +216,7 @@ img {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    row-gap: 2%;
+    row-gap: 2%;   
     grid-template-areas: 
         'h3'
         'f3';
@@ -233,7 +226,7 @@ img {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    row-gap: 2%;
+    row-gap: 2%;   
     grid-template-areas: 
         'h4'
         'f4';
@@ -243,7 +236,7 @@ img {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    row-gap: 2%;
+    row-gap: 2%;   
     grid-template-areas: 
         'h5'
         'f5';
@@ -253,8 +246,19 @@ img {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    row-gap: 2%;
+    row-gap: 2%;   
     grid-template-areas: 
         'h6'
         'f6';
    }
+
+.sm {
+    width: 30px;
+    height: auto;
+    padding: 3px;
+    margin: 16px;
+}
+
+#foot {
+    display: flex;
+}
