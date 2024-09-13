@@ -22,38 +22,67 @@
     </header>
     <hr>
     <main>
+        <form action="" method="">
+            <label for="sort">Sort </label>
+            <select name="sort" id="sort">
+                <option value="latest">Latest</option>
+                <option value="recommended">Recommended</option>
+                <option value="a-z">A-Z Articles</option>
+                <option value="a-z2">A-Z Authors</option>
+                <option value="popular">Most Popular</option>
+            </select>
+        </form>
         <div id="maindiv">
             <aside>
                 <section>
-                    <h4>Filter by Month </h4>
-                    <nav>
-                        <ul>
-                            <li><a href="">Filter for January</a></li>
-                            <li><a href="">Filter for February</a></li>
-                            <li><a href="">Filter for March</a></li>
-                        </ul>
-                    </nav>
+                    <label for="month">Month </label>
+                    <select name="month" id="month" class="sidebar">
+                        <option value="jan">January</option>
+                        <option value="feb">February</option>
+                        <option value="mar">March</option>
+                        <option value="apr">April</option>
+                        <option value="may">May</option>
+                        <option value="jun">June</option>
+                        <option value="jul">July</option>
+                        <option value="aug">August</option>
+                        <option value="sep">September</option>
+                        <option value="oct">October</option>
+                        <option value="Nov">November</option>
+                        <option value="dec">December</option>
+                    </select>
                 </section>
-                <h4>Filter by Category </h4>
-                <nav>
-                    <ul>
-                        <li><a href="">Kittens</a></li>
-                        <li><a href="">Cats</a></li>
-                        <li><a href="">Tigers</a></li>
-                        <li><a href="">Lions</a></li>
-                    </ul>
-                </nav>
                 <section>
+                    <label for="category">Category </label>
+                    <select name="category" id="category" class="sidebar">
+                        <option value="General">General</option>
+                        <option value="recs">Top 10 Lists</option>
+                        <option value="reviews">Book Reviews</option>
+                        <option value="crit">Critiques</option>
+                    </select>
+                </section>
+                <section>
+                    <label for="author">Author </label>
+                    <select name="author" id="author" class="sidebar">
+                        <option value="la">Laila Ali</option>
+                        <option value="aa">Akua Agyekum</option>
+                        <option value="rb">Rupert Brown</option>
+                        <option value="ng">Natasha Gregorovitch</option>
+                        <option value="hk">Hind Khatib</option>
+                        <option value="rk">Rin Kuang</option>
+                        <option value="tl">Thomas Lane</option>
+                        <option value="as">Arya Stark</option>
+                        <option value="nw">Nezha Wu</option>
+                    </select>
                 </section>
             </aside>
             <div id="grid-container">
                 <article id="ar1">
-                    <header>
+                    <header id="h1">
                         <h3> "Booktok" : Blessing or Curse for the Book Industry? </h3>
                         <p> The rise of so-called "booktok" in the last few years has created a new generation of readers ready to pour money into the book industry, but has it eliminated diversity of readership in the process?  </p>
                         <a href="https://www.brightnetwork.co.uk/" target="_blank" >Read More</a>
                     </header>
-                    <footer>
+                    <footer id="f1">
                         <h4>Author: Rupert Brown</h4>
                         <img src="https://placebear.com/100/100" alt="Profile pic of a bear">
                         <h3>Last posted: 01-08-2024  </h3>
@@ -61,12 +90,12 @@
                     </footer>
                 </article>
                 <article id="ar2">
-                    <header>
-                        <h3> Epic Fantasy to Fill Time Whilst Readers Eagerly Await 'The Winds of Winter' </h3>
+                    <header id="h2">
+                        <h3> Epic Fantasy as Readers Await 'The Winds of Winter' </h3>
                         <p> Millions of readers around the world fell in love with George R.R. Martin's 'A Song of Ice and Fire' series, but with over 13 years since 'A Dance with Dragons: Vol II' was released, and no end in sight to the wait, here is a list of titles to satiate your desire for betrayal-filled epic fantasy in the meantime! </p>
                         <a href="https://www.brightnetwork.co.uk/" target="_blank" >Read More</a>
                     </header>
-                    <footer>
+                    <footer id="f2">
                         <h4>Author: Rin Kuang </h4>
                         <img src="https://placebear.com/100/100" alt="Profile pic of a bear">
                         <h3>Last posted: 01-08-2024  </h3>
@@ -74,12 +103,12 @@
                     </footer>
                 </article>
                 <article id="ar3">
-                    <header>
+                    <header id="h3">
                         <h3> The Hidden Stereotypes in the 'Harry Potter' Series </h3>
                         <p> 'Harry Potter' defines the childhood of so many, but are there things we missed in childhood that can be recognised as problematic today? </p>
                         <a href="https://www.brightnetwork.co.uk/" target="_blank" >Read More</a>
                     </header>
-                    <footer>
+                    <footer id="f3">
                         <h4>Author: Laila Ali </h4>
                         <img src="https://placebear.com/100/100" alt="Profile pic of a bear">
                         <h3>Last posted: 01-08-2024  </h3>
@@ -87,12 +116,12 @@
                     </footer>
                 </article>
                 <article id="ar4">
-                    <header>
-                        <h3> Popular Science Reads for the Layman </h3>
+                    <header id="h4">
+                        <h3> Popular Science Reads for the Layperson </h3>
                         <p> Interested in learning more about how the world works but haven't had any exposure before? Lucky for us every good bookstore nowadays has an extensive popular science section, with titles designed for the non-scientist! </p>
                         <a href="https://www.brightnetwork.co.uk/" target="_blank" >Read More</a>
                     </header>
-                    <footer>
+                    <footer id="f4">
                         <h4>Author: Thomas Lane</h4>
                         <img src="https://placebear.com/100/100" alt="Profile pic of a bear">
                         <h3>Last posted: 01-08-2024  </h3>
@@ -100,12 +129,12 @@
                     </footer>
                 </article>
                 <article id="ar5">
-                    <header>
+                    <header id="h5">
                         <h3> 10 Books Written by Women of Colour </h3>
                         <p> The book industry has come very far in promoting the works of marginalised groups of people, but not everyone knows where to start. This list contains both famous and lesser-known works for those looking to diversify their bookshelf. </p>
                         <a href="https://www.brightnetwork.co.uk/" target="_blank" >Read More</a>
                     </header>
-                    <footer>
+                    <footer id="f5">
                         <h4>Author: Hind Khatib </h4>
                         <img src="https://placebear.com/100/100" alt="Profile pic of a bear">
                         <h3>Last posted: 01-08-2024  </h3>
@@ -113,12 +142,12 @@
                     </footer>
                 </article>
                 <article id="ar6">
-                    <header>
+                    <header id="h6">
                         <h3> Decolonising our Curriculum Through our Bookshelves </h3>
                         <p> From 'The Secret Garden' to 'Robinson Crusoe', there are so many books our children read and study filled with overt racism and sympathy towards slavers - is it time for a fundamental change in the list of our curriculum books, leaving colonialism behind and paving the way to make our children more empathetic, kind individuals? </p>
                         <a href="https://www.brightnetwork.co.uk/" target="_blank" >Read More</a>
                     </header>
-                    <footer>
+                    <footer id="f6">
                         <h4>Author: Akua Agyekum  </h4>
                         <img src="https://placebear.com/100/100" alt="Profile pic of a bear">
                         <h3>Last posted: 01-08-2024  </h3>
