@@ -6,9 +6,9 @@ body {
 
  #logo {
     margin: 0px;
-    padding: 10px;
+    padding: 7px;
     font-size: 4vw;
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Dancing Script", sans-serif;
     color: #898fca;
     text-shadow: 
     1px 1px 0px #7379af, /*bottom right*/
@@ -35,7 +35,7 @@ ul {
     font-size: 2vw;
     height: 13vh;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: space-around;
 }
 
