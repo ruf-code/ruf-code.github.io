@@ -26,6 +26,50 @@
     </header>
     <hr>
     <main>
+        <div class="slideshow-container">
+            <!-- Slides -->
+            <div class="slide fade">
+                <a href="https://example.com/page1" target="_blank">
+                    <img src="https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_640.jpg" class="slid">
+                    <div class="text">Best Archival Collections in the UK for Reasearchers</div>
+                </a>
+            </div>
+          
+            <div class="slide fade">
+                <a href="https://example.com/page1" target="_blank">
+                    <img src="https://www.shutterstock.com/image-photo/kindergarten-kids-face-smile-on-600nw-2472680009.jpg" class="slid">
+                    <div class="text">How to Get Kids Interested in Reading</div>
+                </a>
+            </div>
+          
+            <div class="slide fade">
+                <a href="https://example.com/page1" target="_blank">
+                    <img src="https://thumbs.dreamstime.com/b/banned-books-sign-above-book-titles-shelf-october-oneonta-new-york-various-hardcover-softcover-display-shelves-labeled-260913036.jpg" class="slid">
+                    <div class="text">Reading as a Form of Protest</div>
+                </a>
+            </div>
+
+            <div class="slide fade">
+                <a href="https://example.com/page1" target="_blank">
+                    <img src="https://media.istockphoto.com/id/1179850323/photo/sunlit-forest.jpg?s=612x612&w=0&k=20&c=4p4YOZty8vBFQ9D7TG4hsNhpiqLzPwKbRa5I8AB3qeM=" class="slid">
+                    <div class="text">'Norwegian Wood' was not Murakami's Best Work: Fan Opinion</div>
+                </a>
+            </div>
+
+            <!-- Next and Previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+          
+          <!-- Dots (indicators) -->
+        <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+           <!---->
+        </div>
+
         <form action="" method="" id="sorter">
             <label for="sort">Sort </label>
             <div class="custom-selector">
@@ -38,6 +82,7 @@
                 </select>
             </div>
         </form>
+
         <div id="maindiv">
             <aside>
                 <section>
@@ -96,7 +141,7 @@
                     </header>
                     <footer id="f1">
                         <h4>Author: Rupert Brown</h4>
-                        <a href="https://www.brightnetwork.co.uk/" target="_blank" >Author's Profile</a>
+                        <a href="https://www.brightnetwork.co.uk/" target="_blank">Author's Profile</a>
                         <br/>
                         <img src="https://placebear.com/100/100" alt="Profile pic of a bear" class="profile">
                         <h4>Last posted: 01-08-2024  </h4>
@@ -184,7 +229,7 @@
        
     </main>
     <footer>
-        <h2>The Reading Alcove</h2>
+        <h2 id="footlogo">The Reading Alcove</h2>
         <a href="https://example.com" class="ig">
             <img src="https://thumbs.dreamstime.com/b/instagram-icon-vector-instagram-multicolor-icon-white-background-134391681.jpg" alt="Instagram Icon" class="sm">
         </a>
@@ -201,7 +246,6 @@
                         <li><a href="">Home</a></li>
                         <li><a href="">About us</a></li>
                         <li><a href="">Contact</a></li>
-                        <li><a href="">Careers</a></li>
                     </div>
                     <div>
                         <li><a href="">Privacy Policy</a></li>

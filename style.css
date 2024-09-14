@@ -80,10 +80,6 @@ body > footer {
     display: flex;
 }
 
-img {
-    border-radius: 100%;
-}
-
 #footerul {
     display: flex;
     list-style: none;
@@ -329,7 +325,7 @@ input[type="submit"] {
   
   /* Add a hover effect */
 #register:hover {
-    background-color: #d1d6fa; /* Darker green on hover */
+    background-color: #d1d6fa; 
   }
 
 #signupin {
@@ -341,4 +337,118 @@ article {
     border: 0.2vw solid #d1d6fa;
     border-radius: 20px;
     margin: 1vw;
+}
+
+article > footer > a {
+    text-decoration: none;
+    color: rgb(115, 113, 113);
+    font-weight: 600;
+    font-size: 2.5vh;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    margin-top: 5vh;
+    height: 60vh;
+    width: 60vw;
+    }
+
+    /* Hide all images by default */
+.slide {
+    display: none;
+    position: absolute;
+}
+  /* Style for navigation buttons (next/prev) */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    font-size: 6vw;
+    color: #a6ace3;
+    background-color: #d1d6fa92;
+      }
+  
+      /* Position the "next button" to the right */
+.next {
+    border-radius: 3px 0 0 3px;
+    right: -3vw
+    }
+
+.prev {
+    left:-8.1vw
+}
+  
+      /* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    }
+  
+      /* Dots (indicators) */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #a6ace3;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    }
+  
+.active, .dot:hover {
+    background-color: #7379af;
+    }
+
+.profile {
+    border-radius: 100%;
+}
+
+.slid {
+    height: 55vh;
+    width: 55vw;
+    margin: auto;
+    display: block;
+}
+
+.dot-container {
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+    width: 100%; 
+}
+
+.text {
+    font-size: 7vh;
+    text-align: left;
+    background-color: rgba(76, 76, 76, 0.5);
+    bottom: 0px;
+    width: 96.8%;
+}
+
+#footlogo {
+    font-family: "Dancing Script", sans-serif;
+    color: #898fca;
+    font-size: 3vw;
+    text-shadow: 
+    1px 1px 0px #7379af, /*bottom right*/
+    1px 1px 0px #7379af, /*bottom left*/
+    1px 1px 0px #7379af, /*top right*/
+    1px 1px 0px #7379af; /*top left*/
 }
