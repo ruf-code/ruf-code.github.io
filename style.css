@@ -22,6 +22,11 @@ ul {
     font-size: 1.5vw;
 }
 
+label {
+    font-size: 2vh;
+
+}
+
 #navul {
     display: flex;
 }
@@ -330,7 +335,8 @@ input[type="submit"] {
 
 #signupin {
     display: flex;
-    margin-right: 3vw;
+    margin-right: 2vw;
+    margin-left: 10vw;
 }
   
 article {
@@ -418,6 +424,9 @@ article > footer > a {
 
 .profile {
     border-radius: 100%;
+    width: 8vw;
+    height: 8vw;
+    object-fit: cover;
 }
 
 .slid {
