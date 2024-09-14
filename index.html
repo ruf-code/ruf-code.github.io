@@ -12,67 +12,79 @@
     <header id="mainheader">
         <!-- the content of header goes here  -->
          <h1 id="logo">The Reading Alcove</h1>
-         <nav>
+         <nav id="nav">
             <ul id="navul">
                 <li><a href="" class="navbutton">Home</a></li>
                 <li><a href="" class="navbutton">About Us</a></li>
                 <li><a href="" class="navbutton">Contact</a></li>
             </ul>
+            <form action="" method="" id="signupin">
+                <input type="submit" id="login" value="Log in">
+                <input type="submit" id="register" value="Register">
+            </form>
          </nav>
     </header>
     <hr>
     <main>
-        <form action="" method="">
+        <form action="" method="" id="sorter">
             <label for="sort">Sort </label>
-            <select name="sort" id="sort">
-                <option value="latest">Latest</option>
-                <option value="recommended">Recommended</option>
-                <option value="a-z">A-Z Articles</option>
-                <option value="a-z2">A-Z Authors</option>
-                <option value="popular">Most Popular</option>
-            </select>
+            <div class="custom-selector">
+                <select name="sort" id="sort">
+                    <option value="latest">Latest</option>
+                    <option value="recommended">Recommended</option>
+                    <option value="a-z">A-Z Articles</option>
+                    <option value="a-z2">A-Z Authors</option>
+                    <option value="popular">Most Popular</option>
+                </select>
+            </div>
         </form>
         <div id="maindiv">
             <aside>
                 <section>
                     <label for="month">Month </label>
-                    <select name="month" id="month" class="sidebar">
-                        <option value="jan">January</option>
-                        <option value="feb">February</option>
-                        <option value="mar">March</option>
-                        <option value="apr">April</option>
-                        <option value="may">May</option>
-                        <option value="jun">June</option>
-                        <option value="jul">July</option>
-                        <option value="aug">August</option>
-                        <option value="sep">September</option>
-                        <option value="oct">October</option>
-                        <option value="Nov">November</option>
-                        <option value="dec">December</option>
-                    </select>
+                    <div class="custom-selector">
+                        <select name="month" id="month" class="sidebar">
+                            <option value="jan">January</option>
+                            <option value="feb">February</option>
+                            <option value="mar">March</option>
+                            <option value="apr">April</option>
+                            <option value="may">May</option>
+                            <option value="jun">June</option>
+                            <option value="jul">July</option>
+                            <option value="aug">August</option>
+                            <option value="sep">September</option>
+                            <option value="oct">October</option>
+                            <option value="Nov">November</option>
+                            <option value="dec">December</option>
+                        </select>
+                    </div>
                 </section>
                 <section>
                     <label for="category">Category </label>
-                    <select name="category" id="category" class="sidebar">
-                        <option value="General">General</option>
-                        <option value="recs">Top 10 Lists</option>
-                        <option value="reviews">Book Reviews</option>
-                        <option value="crit">Critiques</option>
-                    </select>
+                    <div class="custom-selector">
+                        <select name="category" id="category" class="sidebar">
+                            <option value="General">General</option>
+                            <option value="recs">Top 10 Lists</option>
+                            <option value="reviews">Book Reviews</option>
+                            <option value="crit">Critiques</option>
+                        </select>
+                    </div>
                 </section>
                 <section>
                     <label for="author">Author </label>
-                    <select name="author" id="author" class="sidebar">
-                        <option value="la">Laila Ali</option>
-                        <option value="aa">Akua Agyekum</option>
-                        <option value="rb">Rupert Brown</option>
-                        <option value="ng">Natasha Gregorovitch</option>
-                        <option value="hk">Hind Khatib</option>
-                        <option value="rk">Rin Kuang</option>
-                        <option value="tl">Thomas Lane</option>
-                        <option value="as">Arya Stark</option>
-                        <option value="nw">Nezha Wu</option>
-                    </select>
+                    <div class="custom-selector">
+                        <select name="author" id="author" class="sidebar">
+                            <option value="la">Laila Ali</option>
+                            <option value="aa">Akua Agyekum</option>
+                            <option value="rb">Rupert Brown</option>
+                            <option value="ng">Natasha Gregorovitch</option>
+                            <option value="hk">Hind Khatib</option>
+                            <option value="rk">Rin Kuang</option>
+                            <option value="tl">Thomas Lane</option>
+                            <option value="as">Arya Stark</option>
+                            <option value="nw">Nezha Wu</option>
+                        </select>
+                    </div>
                 </section>
             </aside>
             <div id="grid-container">
@@ -85,7 +97,8 @@
                     <footer id="f1">
                         <h4>Author: Rupert Brown</h4>
                         <a href="https://www.brightnetwork.co.uk/" target="_blank" >Author's Profile</a>
-                        <img src="https://placebear.com/100/100" alt="Profile pic of a bear">
+                        <br/>
+                        <img src="https://placebear.com/100/100" alt="Profile pic of a bear" class="profile">
                         <h4>Last posted: 01-08-2024  </h4>
                     </footer>
                 </article>
@@ -98,20 +111,22 @@
                     <footer id="f2">
                         <h4>Author: Rin Kuang </h4>
                         <a href="https://www.brightnetwork.co.uk/" target="_blank" >Author's Profile</a>
-                        <img src="https://placebear.com/100/100" alt="Profile pic of a bear">
+                        <br/>
+                        <img src="https://placebear.com/100/100" alt="Profile pic of a bear" class="profile">
                         <h4>Last posted: 01-08-2024  </h4>
                     </footer>
                 </article>
                 <article id="ar3">
                     <header id="h3">
                         <h3> The Hidden Stereotypes in the 'Harry Potter' Series </h3>
-                        <p> 'Harry Potter' defines the childhood of so many, but are there things we missed in childhood that can be recognised as problematic today? </p>
+                        <p> 'Harry Potter' is certainly everyone's favourite wizrd and defines the childhood of so many, but are there things we missed in our childhood innocence that can be recognised as problematic today? </p>
                         <a href="https://www.brightnetwork.co.uk/" target="_blank" >Read More</a>
                     </header>
                     <footer id="f3">
                         <h4>Author: Laila Ali </h4>
                         <a href="https://www.brightnetwork.co.uk/" target="_blank" >Author's Profile</a>
-                        <img src="https://placebear.com/100/100" alt="Profile pic of a bear">
+                        <br/>
+                        <img src="https://placebear.com/100/100" alt="Profile pic of a bear" class="profile">
                         <h4>Last posted: 01-08-2024  </h4>
                     </footer>
                 </article>
@@ -124,7 +139,8 @@
                     <footer id="f4">
                         <h4>Author: Thomas Lane</h4>
                         <a href="https://www.brightnetwork.co.uk/" target="_blank" >Author's Profile</a>
-                        <img src="https://placebear.com/100/100" alt="Profile pic of a bear">
+                        <br/>
+                        <img src="https://placebear.com/100/100" alt="Profile pic of a bear" class="profile">
                         <h4>Last posted: 01-08-2024  </h4>
                     </footer>
                 </article>
@@ -137,20 +153,22 @@
                     <footer id="f5">
                         <h4>Author: Hind Khatib </h4>
                         <a href="https://www.brightnetwork.co.uk/" target="_blank" >Author's Profile</a>
-                        <img src="https://placebear.com/100/100" alt="Profile pic of a bear">
+                        <br/>
+                        <img src="https://placebear.com/100/100" alt="Profile pic of a bear" class="profile">
                         <h4>Last posted: 01-08-2024  </h4>
                     </footer>
                 </article>
                 <article id="ar6">
                     <header id="h6">
                         <h3> Decolonising our Curriculum Through our Bookshelves </h3>
-                        <p> From 'The Secret Garden' to 'Robinson Crusoe', there are many books our children study filled with overt racism and sympathy towards slavers - is it time for a fundamental change in curriculum reading list4? </p>
+                        <p> From 'The Secret Garden' to 'Robinson Crusoe', there are many books our children read and study filled with overt racism and sympathy towards slavers - is it time for a fundamental change in curriculum reading list? </p>
                         <a href="https://www.brightnetwork.co.uk/" target="_blank" >Read More</a>
                     </header>
                     <footer id="f6">
                         <h4>Author: Akua Agyekum  </h4>
                         <a href="https://www.brightnetwork.co.uk/" target="_blank" >Author's Profile</a>
-                        <img src="https://placebear.com/100/100" alt="Profile pic of a bear">
+                        <br/>
+                        <img src="https://placebear.com/100/100" alt="Profile pic of a bear" class="profile">
                         <h4>Last posted: 01-08-2024  </h4>
                     </footer>
                 </article>
@@ -193,7 +211,7 @@
                 </ul>
             </nav>
             <div>
-                <h3>Sign up to comment, enter giveaways and receive our exclusive newsletter!</h3>
+                <h3>Register to comment, enter giveaways and receive our exclusive newsletter!</h3>
                 <form action="" method="">
                     <label for="first_name">First Name*: </label>
                     <input type="text" id="first_name" name="first_name" placeholder="Enter your first name" required>
@@ -229,7 +247,7 @@
                     <label for="subscribe">I have read the terms & conditions*</label>
                     <br />
         
-                    <input type="submit" value="Sign Up">
+                    <input type="submit" value="Register">
         
                     <h5>Sections marked with a * are required  </h5>
         
