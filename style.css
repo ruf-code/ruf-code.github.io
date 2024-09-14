@@ -272,12 +272,13 @@ img {
     -webkit-appearance: none; /* Removes default styling in Safari/Chrome */
     -moz-appearance: none; /* Removes default styling in Firefox */
     background-color: #fff; /* Background color of the dropdown */
-    border: 2px solid #ddd; /* Custom border */
+    border: 2px solid #d1d6fa; /* Custom border */
     padding: 10px 10px 10px 8px; /* Adjust padding for custom size */
     font-size: 1.8vh; /* Text size */
     color: black; /* Text color */
     cursor: pointer;
     border-radius: 5px; /* Rounded corners */
+    height: min-content;
   }
   
   /* Add a custom arrow */
@@ -308,6 +309,7 @@ input[type="submit"] {
     border-radius: 20px; /* Rounded corners */
     cursor: pointer; /* Pointer cursor on hover */
     font-size: 1.5vw; /* Adjust font size */
+    margin: 5px;
   }
   
   /* Add a hover effect */
@@ -335,3 +337,8 @@ input[type="submit"] {
     margin-right: 3vw;
 }
   
+article {
+    border: 0.2vw solid #d1d6fa;
+    border-radius: 20px;
+    margin: 1vw;
+}
