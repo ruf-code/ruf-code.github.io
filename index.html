@@ -71,18 +71,7 @@
            <!---->
         </div>
 
-        <form action="" method="" id="sorter">
-            <label for="sort">Sort </label>
-            <div class="custom-selector">
-                <select name="sort" id="sort">
-                    <option value="latest">Latest</option>
-                    <option value="recommended">Recommended</option>
-                    <option value="a-z">A-Z Articles</option>
-                    <option value="a-z2">A-Z Authors</option>
-                    <option value="popular">Most Popular</option>
-                </select>
-            </div>
-        </form>
+        <hr>
 
         <div id="maindiv">
             <aside>
@@ -135,6 +124,18 @@
                 </section>
             </aside>
             <div id="grid-container">
+                <form action="" method="" id="sorter">
+                <label for="sort">Sort </label>
+                 <div class="custom-selector">
+                        <select name="sort" id="sort">
+                            <option value="latest">Latest</option>
+                        <option value="recommended">Recommended</option>
+                            <option value="a-z">A-Z Articles</option>
+                            <option value="a-z2">A-Z Authors</option>
+                            <option value="popular">Most Popular</option>
+                        </select>
+                    </div>
+                </form>
                 <article id="ar1">
                     <header id="h1">
                         <h3> "Booktok" : Blessing or Curse for the Book Industry? </h3>
@@ -219,47 +220,49 @@
                         <h4>Posted on: 02-07-2024  </h4>
                     </footer>
                 </article>
+                <form action="" method="" id="toggle">
+                    <input type="submit" value="1">
+                    <input type="submit" value="2">
+                    <input type="submit" value="3">
+                    <input type="submit" value="4">
+                    <input type="submit" value=">">
+                </form>
             </div>
         </div>
-
-        <!-- main content of website goes here -->
-       
-   
-       
-        <hr />
-       
        
     </main>
     <footer>
         <div>
             <h2 id="footlogo">The Reading Alcove</h2>
-            <a href="https://example.com" class="ig">
-                <img src="https://thumbs.dreamstime.com/b/instagram-icon-vector-instagram-multicolor-icon-white-background-134391681.jpg" alt="Instagram Icon" class="sm">
-            </a>
-            <a href="https://example.com" class="twitter">
-                <img src="https://img.freepik.com/premium-vector/new-twitter-logo-x-2023-twitter-x-logo-vector-download_691560-10795.jpg" alt="X Icon" class="sm">
-            </a>
-            <a href="https://example.com" class="tiktok">
-                <img src="https://cdn.pixabay.com/photo/2021/06/15/12/28/tiktok-6338429_640.png" alt="TikTok Icon" class="sm">
-            </a>
+            <div>
+                <a href="https://example.com" class="ig">
+                    <img src="https://thumbs.dreamstime.com/b/instagram-icon-vector-instagram-multicolor-icon-white-background-134391681.jpg" alt="Instagram Icon" class="sm">
+                </a>
+                <a href="https://example.com" class="twitter">
+                    <img src="https://img.freepik.com/premium-vector/new-twitter-logo-x-2023-twitter-x-logo-vector-download_691560-10795.jpg" alt="X Icon" class="sm">
+                </a>
+                <a href="https://example.com" class="tiktok">
+                    <img src="https://cdn.pixabay.com/photo/2021/06/15/12/28/tiktok-6338429_640.png" alt="TikTok Icon" class="sm">
+                </a>
+            </div>
         </div>
         <section id="foot">
             <nav>
                 <ul id="footerul">
-                    <div>
+                    <div id="footer1">
                         <li><a href="">Home</a></li>
                         <li><a href="">About us</a></li>
                         <li><a href="">Contact</a></li>
                     </div>
-                    <div>
+                    <div id="footer2">
                         <li><a href="">Privacy Policy</a></li>
                         <li><a href="">Terms & Conditions</a></li>
                         <li><a href="">Cookies Policy</a></li>
                     </div>
                 </ul>
             </nav>
-            <div>
-                <h3>Register to comment, enter giveaways and receive our exclusive newsletter!</h3>
+            <div id="signupform">
+                <h4>Register to comment, enter giveaways and receive our exclusive newsletter!</h4>
                 <form action="" method="">
                     <label for="first_name">First Name*: </label>
                     <input type="text" id="first_name" name="first_name" placeholder="Enter your first name" required>

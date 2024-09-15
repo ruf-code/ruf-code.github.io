@@ -83,20 +83,61 @@ h2 {
 
 body > footer {
     display: flex;
+    background-color: #898fca;
+    margin-top: 6vh;
+}
+
+body > footer > div {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
 }
 
 #footerul {
     display: flex;
     list-style: none;
+    margin: auto;
 }
 
 #footerul  > div > li {
-    margin-left: 12px;
+    padding: 3px;
 }
 
 #footerul  > div > li > a {
     text-decoration: none;
+    color: #d1d6fa;
 }    
+
+#footer1 {
+    flex: 1 1 50%;
+}
+
+#footer2 {
+    flex: 1 1 50%;
+}
+
+section > nav {
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+
+#signupform {
+    margin-top: 2vh;
+    margin-left: 2vw;
+    color: #d1d6fa;
+    font-size: 2.5vh;
+}
+
+#footlogo {
+    font-family: "Dancing Script", sans-serif;
+    color: #d1d6fa;
+    font-size: 3.5vw;
+    text-shadow: 
+    1px 1px 0px white, /*bottom right*/
+    1px 1px 0px white, /*bottom left*/
+    1px 1px 0px white, /*top right*/
+    1px 1px 0px white; /*top left*/
+}
 
 #ar1 {
     grid-area: ar1;
@@ -170,15 +211,34 @@ body > footer {
     grid-area: f6;
 }
 
+#toggle {
+    text-align: center;
+    grid-area: form;
+    margin-bottom: 10vh;
+}
+
+#toggle > input {
+    border-radius: 10%;
+    background-color: #d1d6fa;
+
+}
+
+#sorter {
+    grid-area: sort;
+    margin-top: 4vh;
+}
+
 #grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.08fr 1fr 1fr 0.1fr;
     column-gap: 3%;
     row-gap: 3%;
     grid-template-areas: 
+        ' . sort . '
         'ar1 ar2 ar3'
-        'ar4 ar5 ar6';
+        'ar4 ar5 ar6'
+        ' . form . ';
 }
 
 #maindiv {
@@ -450,15 +510,4 @@ article > footer > a {
     background-color: rgba(76, 76, 76, 0.5);
     bottom: 0px;
     width: 96.8%;
-}
-
-#footlogo {
-    font-family: "Dancing Script", sans-serif;
-    color: #898fca;
-    font-size: 3vw;
-    text-shadow: 
-    1px 1px 0px #7379af, /*bottom right*/
-    1px 1px 0px #7379af, /*bottom left*/
-    1px 1px 0px #7379af, /*top right*/
-    1px 1px 0px #7379af; /*top left*/
 }
