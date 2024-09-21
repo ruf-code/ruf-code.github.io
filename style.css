@@ -411,6 +411,10 @@ article {
     margin: 1vw;
 }
 
+article:hover {
+    background-color: #d1d6fa;
+}
+
 article > footer > a {
     text-decoration: none;
     color: rgb(115, 113, 113);
